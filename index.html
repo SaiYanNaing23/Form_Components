@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input_components</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Form Elements</h1>
+    </header>
+    <main>
+        <div class="components">
+            <div class="state">
+                <table class="table-content">
+                    <thead>
+                        <tr>
+                            <th><h3>State</h3></th>
+                            <th>input</th>
+                            <th>input + icon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Default</td>
+                            <td><input type="text" class="form-control" placeholder="Placeholder"></td>
+                            <td>
+                                <div class="input_icon">
+                                    <input type="text" placeholder="Placeholder" class="form-control">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Input Text</td>
+                            <td><input type="text" class="form-control" placeholder="Input Text"></td>
+                            <td>
+                                <div class="input_icon">
+                                    <input type="text" placeholder="Input Text" class="form-control">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hover</td>
+                            <td><input type="text" class="form-control" placeholder="Placeholder"></td>
+                            <td>
+                                <div class="input_icon">
+                                    <input type="text" placeholder="Placeholder" class="form-control">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Focus</td>
+                            <td><input type="text" class="form-control" placeholder="Typing..."></td>
+                            <td>
+                                <div class="input_icon">
+                                    <input type="text" placeholder="Typing..." class="form-control">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>Disable</td>
+                            <td class="state-padding"><input type="text" class="form-control disabled" placeholder="Placeholder" disabled style="background-color: #e9ecef;"></td>
+                            <td class="state-padding">
+                                <div class="input_icon">
+                                    <input type="text" placeholder="Placeholder" class="form-control disabled" disabled style="background-color: #e9ecef;">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="state_footer"></div>
+            </div>
+            <div class="type">
+                <table class="type_table_content">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Select</td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="Selected">Selected Item</option>
+                                    <option value="Sai">Sai</option>
+                                    <option value="Yan">Yan</option>
+                                    <option value="Naing">Naing</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Input</td>
+                            <td class="type_input">
+                                <label for="input-placeholder"><span>LABEL</span><span>Forget password?</span></label>
+                                <input type="text" class="form-control" placeholder="Placeholder">
+                                <p>Caption text, description, error notification</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style=" white-space: nowrap;" class="text_area_caption">Text Area</td>
+                            <td>
+                                <textarea name="" id="" cols="43" rows="5">Place Your Text</textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="type_footer"></div>
+            </div>
+            <div class="status">
+                <table class="status_table_content">
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Input</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Default</td>
+                            <td><input type="text" placeholder="Placeholder" class="form-control"></td>
+                        </tr>
+                        <tr>
+                            <td>Primary</td>
+                            <td><input type="text" placeholder="Typing..." class="form-control primary"></td>
+                        </tr>
+                        <tr>
+                            <td>Success</td>
+                            <td><input type="text" placeholder="Correct Text" class="form-control success"></td>
+                        </tr>
+                        <tr>
+                            <td>Warning</td>
+                            <td><input type="text" placeholder="Incorrect Text" class="form-control warning"></td>
+                        </tr>
+                        <tr>
+                            <td>Danger</td>
+                            <td><input type="text" placeholder="Incorrect Text" class="form-control danger"></td>
+                        </tr>
+                        <tr>
+                            <td>Info</td>
+                            <td><input type="text" placeholder="Type Here" class="form-control info"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
